@@ -1,0 +1,12 @@
+version: "3.2"
+services:
+  ootp:
+    image: "daijie/php7-alpine"
+    volumes:
+      - .:/var/www
+  composer:
+    image: composer/composer
+    volumes:
+      - .:/app
+    command: composer install --ignore-platform-reqs && composer dump-autoload
+    working_dir: /app

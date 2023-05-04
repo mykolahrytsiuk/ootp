@@ -1,12 +1,13 @@
 <?php
+declare(strict_types=1);
 
 namespace OOP\Lab1\Tests;
-
-declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 use OOP\Lab1\FileLoggerFactory;
 use OOP\Lab1\StdoutLoggerFactory;
+use OOP\Lab1\FileLogger;
+use OOP\Lab1\StdoutLogger;
 
 class FactoryMethodTest extends TestCase
 {

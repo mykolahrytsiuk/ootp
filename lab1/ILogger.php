@@ -1,10 +1,10 @@
 <?php
 
-namespace OOP\Lab1;
-
 declare(strict_types=1);
 
-interface Logger
+namespace OOP\Lab1;
+
+interface ILogger
 {
     public function log(string $message);
 }

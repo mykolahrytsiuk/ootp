@@ -1,12 +1,12 @@
 <?php
 
-namespace OOP\Lab1;
-
 declare(strict_types=1);
 
-class StdoutLoggerFactory implements LoggerFactory
+namespace OOP\Lab1;
+
+class StdoutLoggerFactory implements ILoggerFactory
 {
-    public function createLogger(): Logger
+    public function createLogger(): ILogger
     {
         return new StdoutLogger();
     }

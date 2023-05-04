@@ -1,16 +1,19 @@
 <?php
 
-namespace OOP\Lab1;
-
 declare(strict_types=1);
 
-class FileLoggerFactory implements LoggerFactory
+namespace OOP\Lab1;
+
+class FileLoggerFactory implements ILoggerFactory
 {
-    public function __construct(private string $filePath)
+    private $filePath;
+
+    public function __construct(string $filePath)
     {
+        $this->filePath = $filePath;
     }
 
-    public function createLogger(): Logger
+    public function createLogger(): ILogger
     {
         return new FileLogger($this->filePath);
     }

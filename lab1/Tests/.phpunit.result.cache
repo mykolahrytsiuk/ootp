@@ -1,0 +1,1 @@
+{"version":1,"defects":{"OOP\\Lab1\\Tests\\FactoryMethodTest::testCanCreateStdoutLogging":3,"OOP\\Lab1\\Tests\\FactoryMethodTest::testCanCreateFileLogging":4},"times":{"OOP\\Lab1\\Tests\\FactoryMethodTest::testCanCreateStdoutLogging":0.043,"OOP\\Lab1\\Tests\\FactoryMethodTest::testCanCreateFileLogging":0.008}}

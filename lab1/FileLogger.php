@@ -1,13 +1,16 @@
 <?php
 
-namespace OOP\Lab1;
-
 declare(strict_types=1);
 
-class FileLogger implements Logger
+namespace OOP\Lab1;
+
+class FileLogger implements ILogger
 {
-    public function __construct(private string $filePath)
+    private $filePath;
+
+    public function __construct(string $filePath)
     {
+        $this->filePath = $filePath;
     }
 
     public function log(string $message)
