@@ -1,0 +1,12 @@
+[
+    {
+        "email": "johndoe@gmail.com",
+        "phone": "380678309563",
+        "password": "testPassword123"
+    },
+    {
+        "email": "johndoe321@gmail.com",
+        "phone": "380678309564",
+        "password": "testPassword121"
+    }
+]

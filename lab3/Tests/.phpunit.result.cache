@@ -1,0 +1,1 @@
+{"version":1,"defects":{"OOP\\Lab2\\Tests\\PrototypeTest::testCanGetFooBook":4,"OOP\\Lab3\\Tests\\PrototypeTest::testCanLoginEmail":4,"OOP\\Lab3\\Tests\\PrototypeTest::testCanLoginPhone":3},"times":{"OOP\\Lab2\\Tests\\PrototypeTest::testCanGetFooBook":0.049,"OOP\\Lab3\\Tests\\PrototypeTest::testCanLoginEmail":0.047,"OOP\\Lab3\\Tests\\PrototypeTest::testCanLoginPhone":0.007}}
