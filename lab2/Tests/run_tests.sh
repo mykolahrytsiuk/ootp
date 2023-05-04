@@ -1,0 +1,1 @@
+XDEBUG_MODE=coverage ../../vendor/bin/phpunit -c ./phpunit.xml

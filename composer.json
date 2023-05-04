@@ -3,6 +3,6 @@
         "phpunit/phpunit": "^8.5"
     },
     "autoload": {
-        "classmap": ["lab1/"]
+        "classmap": ["lab1/", "lab2/"]
     }
 }
